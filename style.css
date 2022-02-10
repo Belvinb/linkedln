@@ -47,6 +47,9 @@ body {
 .secondary-icons i {
   color: grey;
 }
+.secondary-icons i:hover{
+  color:black;
+}
 .fa-search {
   position: absolute;
   left: -12px;
@@ -188,6 +191,9 @@ body {
   top: 48px;
   left: 48px;
 }
+.leftbox-user:hover{
+  text-decoration: underline;
+}
 .sidebox3 {
   position: absolute;
   background-color: #fff;
@@ -208,21 +214,32 @@ body {
   margin-left: 24px;
   margin-right: -23px;
 }
+
 .left-text1 {
   position: relative;
   color: #292929;
   font-weight: 200;
   top: 7px;
 }
+.left-text1:hover{
+  background: lightgray
+}
+
 .left-text2 {
   position: relative;
   top: 6px;
+}
+.left-text2:hover{
+  background: lightgray
 }
 .left-text3 {
   position: relative;
   color: #292929;
   font-weight: 200;
   top: 19px;
+}
+.left-text3:hover{
+  background: lightgray;
 }
 .sidebox4 {
   position: absolute;
@@ -232,6 +249,9 @@ body {
   left: 0px;
   width: 202px;
   border-radius: 0cm 0cm 0.3cm 0.3cm;
+}
+.sidebox4:hover{
+  background: lightgray;
 }
 .my-items {
   position: relative;
@@ -272,6 +292,9 @@ body {
   height: 7vh;
   border-radius: 1cm;
 }
+.start-post:hover{
+  background: lightgray;
+}
 
 .fa-image {
   position: absolute;
@@ -280,6 +303,7 @@ body {
   left: 38px;
   font-size: 23px;
 }
+
 .photo {
   list-style-type: none;
   font-family: "Montserrat", sans-serif;
@@ -289,6 +313,9 @@ body {
   left: 80px;
   font-size: 13px;
 }
+.photo:hover{
+  background: lightgray;
+}
 .fa-youtube {
   position: absolute;
   color: lightgreen;
@@ -296,6 +323,7 @@ body {
   left: 158px;
   font-size: 30px;
 }
+
 .video {
   list-style-type: none;
   position: absolute;
@@ -305,6 +333,9 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #292929;
 }
+.video:hover{
+  background: lightgray;
+}
 .fa-calendar-check {
   position: absolute;
   color: orange;
@@ -312,6 +343,7 @@ body {
   left: 284px;
   font-size: 27px;
 }
+
 .event {
   list-style-type: none;
   color: #292929;
@@ -320,6 +352,9 @@ body {
   top: 81px;
   left: 333px;
   font-size: 14px;
+}
+.event:hover{
+  background: lightgray;
 }
 .fa-indent {
   position: absolute;
@@ -337,6 +372,9 @@ body {
   top: 81px;
   left: 466px;
   font-size: 14px;
+}
+.write:hover{
+  background: lightgray;
 }
 .right-side-box {
   display: flex;
@@ -364,6 +402,9 @@ body {
   top: 22px;
   left: -17px;
 }
+.news-items li:hover{
+  background: lightgray;
+}
 .center-bottom {
   display: flex;
   justify-content: right;
@@ -383,6 +424,9 @@ body {
   left: 5vw;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+}
+.center-bottom h4:hover{
+  text-decoration: underline;
 }
 .pro-pic {
   border-radius: 5cm;
@@ -452,6 +496,9 @@ body {
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
 }
+.center-bottom2 h4:hover{
+  text-decoration:underline ;
+}
 .pro-pic2 {
   border-radius: 5cm;
   height: 3.8%;
@@ -498,3 +545,4 @@ body {
 .post-icons2 li{
   padding-left: 121px;
   font-size: 26px;
+}
